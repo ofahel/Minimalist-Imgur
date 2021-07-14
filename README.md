@@ -13,7 +13,7 @@
 
 ## 🎉 Installation/Usage
 
-Download the imgur.php and put on your project folder.
+Download the imgur.php and put it on your project folder.
 
 
 Basic example
