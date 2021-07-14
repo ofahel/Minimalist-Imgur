@@ -55,7 +55,7 @@ $Imgur->delete($deletation_hash);
 | Method    | Description                            | Parameters                                                        |
 |-----------|----------------------------------------|------------                                                       |
 | delete    | Delete a uploaded image/video          | Deletation Hash                                                   |
-| upload    | Uploaded a image/video                 | Data(Binary file, Base64 or URL), Async(boolean), Options(Array)  |
+| upload    | Upload a image/video                 | Data(Binary file, Base64 or URL), Async(boolean), Options(Array)  |
 
 
 ## Development
