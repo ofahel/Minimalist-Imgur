@@ -45,7 +45,7 @@ class IMGURClass
             CURLOPT_CUSTOMREQUEST => "DELETE",
             //Set POST API Authorization header
             CURLOPT_HTTPHEADER => array(
-                "Authorization: Client-ID " + $this->Client
+                "Authorization: Client-ID " + $this->$ClientID
             ),
         ));
     }
