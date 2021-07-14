@@ -21,19 +21,22 @@ Basic example
 <?php
 include("imgur.php");
 
-//instantiate the library passing your Client-ID
+//Instantiate the library passing your Client-ID
 $Imgur = new IMGURClass('your_client_id_here');
 
 //Upload a URL
 $uploaded = $Imgur->upload('https://i.imgur.com/hSyuS32.png');
 
-//Get upload infos
+// ----- Get upload infos ----- //
 
 //Direct link
 $upload_link = $upload->link;
 
+//File MIME
+$upload_mime = $upload->type;
+
 //Image size
-$upload_mime = array(
+$upload_size = array(
   "width" => $upload->width,
   "height" => $upload->height
 );
