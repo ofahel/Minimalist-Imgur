@@ -25,7 +25,7 @@ include("imgur.php");
 $Imgur = new IMGURClass('your_client_id_here');
 
 //Upload a URL
-$uploaded = $Imgur->upload('https://i.imgur.com/hSyuS32.png');
+$upload = $Imgur->upload('https://i.imgur.com/hSyuS32.png');
 
 // ----- Get upload infos ----- //
 
